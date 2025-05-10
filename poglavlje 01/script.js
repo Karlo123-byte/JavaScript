@@ -16,3 +16,4 @@ console.log(zbrojPrviDrugi)
 let fruit = ["Banana","Apple","Mango"];
 
 console.log(fruit);
+
