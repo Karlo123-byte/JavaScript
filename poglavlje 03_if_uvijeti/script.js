@@ -25,3 +25,5 @@ else {
 //Stavite da je vrijednost varijable video
 //napravite uvijet ako je vr el video ispisati neki link od yt videa
 //ako je vr el slika ispisati link neke slike.
+
+
