@@ -4,7 +4,7 @@ console.log(products);
 products.push("Novine"); //Vjezba dodavanje Novina preko push metode.
 console.log(products);
 
-delete products[0];
+products.splice(0,1);
 console.log(products); //Ovdje smo obrisali kruh sa liste.
 
 let cars = ["BMW", "Mercedes", "Audi"];
