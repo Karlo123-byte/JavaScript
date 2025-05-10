@@ -15,5 +15,10 @@ console.log(zbrojPrviDrugi)
 
 let fruit = ["Banana","Apple","Mango"];
 
-console.log(fruit);
+/**
+ * Napraviti niz pod nazwivom komponente i unutar liste dodati 3 komponente računala.
+ * */
+
+let komponente = ["Matična ploča", "RAM", "Procesor"];
+console.log(komponente);
 
