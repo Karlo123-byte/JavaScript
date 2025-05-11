@@ -1,19 +1,19 @@
 let proizvod = "kruh";
 let cijena = 99;
 
-if (cijena == 99) {
+if (cijena === 99) {
     console.log("Kruh je skup")
 }
 
 //Vježba ako imamo varijablu kruh kroz if uslov ispisati nasli smo kruh.
 
-if (proizvod == "kruh") {
+if (proizvod === "kruh") {
     console.log("Našli smo kruh")
 }
 
 let automobil = "Mercedes";
 
-if (automobil == "BMW") {
+if (automobil === "BMW") {
     console.log("M3");
 }
 else {
