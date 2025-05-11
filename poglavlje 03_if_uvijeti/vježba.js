@@ -1,9 +1,9 @@
 let content = "Website";
 
-if (content == "video") {
+if (content === "video") {
     console.log("https://youtu.be/lkIFF4maKMU?si=VIjUVH4QJ2EA2Wt6");
 }
-else if (content == "Website") {
+else if (content === "Website") {
     console.log("https://www.w3schools.com/js/");
 }
 
@@ -13,7 +13,7 @@ else {
 let komponenta = "procesor";
 let cijena = 50;
 
-if (komponenta == "procesor" && cijena < 50) {
+if (komponenta === "procesor" && cijena < 50) {
     console.log("Uspiješno");
 }
 
