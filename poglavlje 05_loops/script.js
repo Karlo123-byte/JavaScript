@@ -42,3 +42,5 @@ if(ime[0] === "a") {
     console.log("Tvoje ime započinje samoglasnikom a");
 }
 
+//Uvod u loops
+
