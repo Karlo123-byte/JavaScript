@@ -1,4 +1,4 @@
-let products = ["Kruh", "Mlijeko", "Jogurt"];
+let products = ["Bread", "Mlijeko", "Jogurt"];
 
 for (let i = 0; i < products.length; i++) {
     console.log(products[i]);
@@ -16,7 +16,7 @@ for (let oneProduct in products) {
 
 let korpa = [
     {
-        name: "Kruh",
+        name: "bread",
         amount: 2,
         price: 100,
     },
@@ -51,12 +51,20 @@ let korpa = [
 
 //Novi zadatak
 //ako je cijena proizvoda veca od 200, zaustaviti petlju.
+
+
 for (let prices in korpa) {
-    if (korpa[prices]['price'] > 200) {
+
+    let productPrice = korpa[prices]['price'];//Ovje smo napravili novu varijablu spremili korpa[prices]['price']
+//Sada pozovemo tu varijablu i tjt.
+
+    if (productPrice > 200) {
         break;
     }
     console.log(korpa[prices]['price']);
 }
+
+//CONTROL + SHIFT + R
 
 
 
